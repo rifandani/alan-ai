@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+#root,
+html,
+body {
+  height: 100vh;
+  overflow: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
